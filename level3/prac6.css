@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  /* box-sizing: border-box; */
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+  border: 2px solid black;
+  padding: 40px;
+  /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: step(3);
+    transition-delay: 1s; */
+  /* transition: all 2s ease-in-out 1s; */
+  font-size: 30px;
+}
+/* }
+@media(max-width: 300px){
+    div{
+        background-color: green;
+    }
+}
+@media(min-width: 300px) and (max-width:400px){
+    div{
+        background-color: pink;
+    }
+} */

@@ -1,0 +1,17 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+    position: relative;
+   margin-right: 20px;
+}
+#box1{
+    background-image: url("back.jpg");
+    background-size: cover;
+}
+body{
+     background-image: url("back.jpg");
+    background-size: cover;
+}

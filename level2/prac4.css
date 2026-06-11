@@ -1,0 +1,34 @@
+*{
+   margin: 0;
+   padding: 0;
+   color: white;
+}
+#navbar{
+    background-color: black;
+    height: 60px;
+}
+#logo{
+    font-size: 25px;
+    color: rgb(233, 162, 30);
+}
+.myclass{
+    text-transform: capitalize;
+}
+#search{
+    background-color:rgb(233, 162, 30) ;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}
+.content{
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    /* position: relative;
+    top: 100px; */
+    border:2px solid black;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}

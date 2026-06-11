@@ -1,0 +1,30 @@
+div{
+    height: 100px;
+    width: 100px;
+   
+    border-width:3px;
+    border-style: solid;
+    display:block;
+    padding:50px;
+    margin-right: 50px;
+    position: relative;
+    top:100px;
+   
+    
+}
+h1{
+  
+    height: 50px;
+    width: 100px;
+    border: 2px dashed green;
+    text-align: center;
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: green;
+}
+#box3{
+    background-color: grey;
+}
