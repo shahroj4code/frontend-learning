@@ -1,14 +1,19 @@
-p{
-    color: red;
+p {
+  color: red;
 }
-h1{
-    color: green;
+h1 {
+  color: green;
   background-color: gray;
 }
-body{
-   background-color: #3C7A89;
+body {
+  background-image: url(4105022.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
 }
-button{
-    color: red;
-    background-color:green;
+button {
+  color: red;
+  background-color: green;
 }
