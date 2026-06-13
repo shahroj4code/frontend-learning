@@ -1,0 +1,37 @@
+#navbar {
+  background-color: black;
+}
+button {
+  color: #ff9100;
+}
+#logo {
+  color: #ff9100;
+}
+a {
+  margin-right: 200px;
+}
+input {
+  border: 2px solid red;
+}
+#div1 {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+#div2 {
+  background-color: rgba(0, 255, 0, 0.5);
+}
+#div3 {
+  background-color: rgba(25, 0, 255, 0.5);
+}
+#content {
+  height: 500px;
+}
+.contentbox {
+  height: 100px;
+  width: 100px;
+  margin-top: 20px;
+  border: 2px solid black;
+  display: inline-block;
+}
+footer {
+  margin-bottom: 10px;
+}

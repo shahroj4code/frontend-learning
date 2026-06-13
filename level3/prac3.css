@@ -1,4 +1,4 @@
-div {
+/* div {
   height: 100px;
   width: 100px;
   background-color: aqua;
@@ -19,4 +19,13 @@ body {
   height: 50px;
   color: red;
   border: 2px solid black;
+} */
+div {
+  height: 100px;
+  width: 100px;
+  border: 2px dotted black;
+  background-color: aqua;
+}
+#box1 {
+  /* padding-left: 25px; */
 }
