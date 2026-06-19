@@ -1,0 +1,23 @@
+*{
+   margin: 0;
+   padding: 0;
+   color: white;
+}
+#navbar{
+    background-color: black;
+    height: 60px;
+}
+#logo{
+    font-size: 25px;
+    color: rgb(233, 162, 30);
+}
+.myclass{
+    text-transform: capitalize;
+}
+#search{
+    background-color:rgb(233, 162, 30) ;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}

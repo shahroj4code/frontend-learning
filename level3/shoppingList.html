@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping list</title>
+    <link rel="stylesheet" href="shoppingList.css" />
+    <script src="shopList.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Shopping list</h1>
+      </header>
+      <form id="item-form">
+        <div class="form-control">
+          <input
+            type="text"
+            class="form-input"
+            id="item-input"
+            name="item"
+            placeholder="Enter item" />
+        </div>
+        <div class="form-control">
+          <button class="button" type="submit">
+            <i class="fa-solid fa-plus"></i>Add Item
+          </button>
+        </div>
+      </form>
+      <div class="filter">
+        <input
+          type="text"
+          class="form-input-filter"
+          id="filter"
+          placeholder="Filter-item" />
+      </div>
+      <ul id="item-list" class="items">
+        <li>
+          Apples
+          <button class="remove item btn">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+        <li>
+          orange juice
+          <button class="remove item btn">
+            <i fa-solid fa-xmark></i>
+          </button>
+        </li>
+        <li>
+          Ores
+          <button class="remove item btn"><i fa-solid fa-Xmark></i></button>
+        </li>
+        <li>
+          Milk
+          <button class="remove item btn">
+            <i fa-solid fa-x-mark></i>
+          </button>
+        </li>
+      </ul>
+      <button id="clear" class="btn-clear">Clear All</button>
+    </div>
+  </body>
+</html>
