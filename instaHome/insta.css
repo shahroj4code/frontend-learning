@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+#container {
+  width: 350px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#select-lang {
+  color: gray;
+  font-size: 14px;
+}
+
+#logo {
+  margin: 40px 0;
+}
+
+#insta-logo {
+  width: 120px;
+  height: 120px;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#verification,
+#password {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+#log-in {
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  background-color: #0095f6;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#log-in:hover {
+  background-color: #1877f2;
+}
+
+.forgot {
+  text-decoration: none;
+  color: #00376b;
+  margin-top: 10px;
+}
+
+.footer-content {
+  margin-top: auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#new-account {
+  display: inline-block;
+  text-decoration: none;
+  color: #0095f6;
+  border: 1px solid #0095f6;
+  padding: 10px 30px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #262626;
+}
